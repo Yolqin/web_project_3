@@ -1,0 +1,30 @@
+.places__place {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 0 80px;
+}
+
+.places__place:last-child {
+  padding: 0 0 92px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__place {
+    padding: 0 0 72px;
+  }
+
+  .places__place:last-child {
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__place {
+    padding: 0 0 48px;
+  }
+
+  .places__place:last-child {
+    padding: 0 0 64px;
+  }
+}
