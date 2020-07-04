@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1024) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page__content {
     max-width: 1024px;
   }
